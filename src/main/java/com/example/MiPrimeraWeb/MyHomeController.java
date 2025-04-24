@@ -22,4 +22,9 @@ public class MyHomeController {
     public String valor(@RequestParam int num1) {
         return "El valor ingresado es " + num1;
     }
+
+    @GetMapping("/api/v2")
+    public String otrov2() {
+        return new String("Esta es otra Web v2");
+    }
 }
