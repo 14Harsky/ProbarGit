@@ -27,4 +27,9 @@ public class MyHomeController {
     public String otrov2() {
         return new String("Esta es otra Web v2");
     }
+
+    @GetMapping("/api/v3")
+    public String otrov3() {
+        return new String("Esta es otra Web v3");
+    }
 }
